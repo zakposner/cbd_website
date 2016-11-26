@@ -1,0 +1,281 @@
+/* ==================================
+    General Styles
+   ================================== */
+
+/* --- Layout --- */
+
+.outline {
+	border: 1px solid black;
+}
+
+
+/* ==================================
+    Reusable Components
+   ================================== */
+
+/* --- Headers and fonts --- */
+
+.jumbo-text {
+	color: crimson;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 200;
+}
+
+.cbd-icon {
+	max-width: 30%;
+}
+
+
+
+/* ==================================
+    Header & Navbar
+   ================================== */
+
+.ks-nav {
+	background:#fff;
+	min-height: 60px;
+	padding: 20px;
+	 box-shadow: 0px 2px 5px #888; 
+}
+
+.logo-container {
+	margin-left: 1rem;
+}
+
+.nav-container {
+	float: right;
+}
+
+.home-page-banner {
+	padding: 10% 5% 5% 5%;
+	background: #2BBBAD;
+}
+
+.cta {
+	padding: 30px;
+	border-radius: 3px;
+	background: #0099CC;
+	color: #fff !important;
+}
+
+.ks-nav li {
+	margin-right: 2rem;
+	font-size: 1.25rem;
+}
+
+
+
+/* ==================================
+    Home Page Body
+   ================================== */
+
+/* --- Expertise --- */
+
+.qual-container {
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+/* --- Portfolio --- */
+
+.home-portfolio {
+	background:#bbb;
+	border-radius: 5px;
+}
+
+.portfolio-img-vert,
+.portfolio-img-horz {
+	min-height: 235px;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width:758px) {
+	
+	.portfolio-img-vert {
+		min-height: 500px;
+	}
+
+	.portfolio-img-horz {
+		min-height: 235px;
+	}
+	
+	.portfolio-img-horz:nth-child(1) {
+		margin-bottom: 30px;
+	}
+	
+}
+
+.home-portfolio {
+	padding: 5%;
+}
+
+/* --- Newsletter Signup --- */
+
+.newsletter {
+	color: #fff;
+	border-radius: 5px;
+	padding: 3% 3% 3% 3%;
+	background: #555;
+}
+
+.newsletter-form {
+	text-align: center;
+}
+
+.newsletter-form div {
+	float: left;
+
+}
+
+@media screen and (min-width:758px) {
+	
+	.newsletter {
+		width: 80%;
+		margin-left: 10%;
+	}	
+	
+}
+
+/* --- Bumper --- */
+
+.full-width-bumper {
+	text-align: center;
+	height: 400px;
+	max-height: 50vh;
+	background: #999;
+}
+
+
+
+/* ==================================
+    Our Approach Body
+   ================================== */
+
+.approach-body {
+	position:absolute;
+	position: relative;
+	bottom: 150px
+}
+
+.approach-page-banner {
+	min-height: 40vh;
+	padding: 5%;
+	background: #2BBBAD;
+}
+
+.approach-box {
+	height: 300px;
+}
+
+
+
+/* ==================================
+    Contact Body
+   ================================== */
+
+.contact-body {
+	position:absolute;
+	position: relative;
+	bottom: 150px
+}
+
+.contact-page-banner {
+	min-height: 40vh;
+	padding: 5%;
+	background: #2BBBAD;
+}
+
+.contact-box {
+    height: 500px;
+    background: #efefef;
+}
+
+.contact-info-box,
+.contact-form-box {
+	padding: 5% 8% 5% 8%
+}
+
+
+
+
+
+/* ==================================
+    Footer
+   ================================== */
+
+.footer1 {
+    background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;/*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+}
+
+.title-widget {
+	color: #898989;
+	font-size: 1.2rem;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	margin: 0 0 25px 0;
+	padding-left: 1.5rem;
+}
+
+.title-widget::before {
+	background-color: #ea5644;
+	content: "";
+	height: 22px;
+	left: 0px;
+	position: absolute;
+	top: -2px;
+	width: 5px;
+}
+
+.widget_nav_menu ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.widget_archive ul li {
+	content: "";
+	height: 3px;
+	left: 0;
+	position: absolute;
+	top: 7px;
+	width: 3px;
+}
+
+.widget_nav_menu ul li {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+	position: relative;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	width:95%;
+}
+
+.title-median {
+	color: #636363;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0 0 15px;
+	text-transform: uppercase;
+}
+
+.footer-bottom {
+	background-color: #15224f;
+	min-height: 30px;
+}
+
+.copyright {
+	color: #fff;
+	line-height: 30px;
+	padding: 7px 0;
+}
